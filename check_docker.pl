@@ -125,7 +125,7 @@ $np->add_arg(
     spec     => 'keyfile|k=s',
     help     => $messages->{'help_keyfile'},
     required => 0,
-    default  => "~/.ssh/id_rsa.pub",
+    #default  => "~/.ssh/id_rsa",
     );
 
 #==============================================================#
@@ -145,7 +145,7 @@ print "Options \nUser: $user\nPassword: $passw";
 
 print "Now SSH...\n";
 
-my @output = `ssh $user\@$host -p $port -i $keyfile "ls -ltr ~/"`;
+my @output = `ssh $user\@$host -p $port -i $keyfile -v "ls -ltr ~/"`;
 
 print "OUTPUT: \n@output";
 

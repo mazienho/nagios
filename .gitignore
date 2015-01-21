@@ -3,3 +3,11 @@
 check_snmp_uptime_perf.pl
 nagios-plugins.sublime*
 check_weather.pl
+docker-images
+docker-logs-container
+docker-ps
+docker-ps-a
+docker-ps-a-s
+docker-ps-since
+
+docker-top-container
