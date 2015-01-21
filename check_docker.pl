@@ -125,7 +125,7 @@ $np->add_arg(
     spec     => 'keyfile|k=s',
     help     => $messages->{'help_keyfile'},
     required => 0,
-    default  => "~/.ssh/id_rsa",
+    default  => "~/.ssh/id_rsa.pub",
     );
 
 #==============================================================#
