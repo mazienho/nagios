@@ -2,3 +2,4 @@
 
 check_snmp_uptime_perf.pl
 nagios-plugins.sublime*
+check_weather.pl
