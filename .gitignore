@@ -11,3 +11,4 @@ docker-ps-a-s
 docker-ps-since
 
 docker-top-container
+check_docker.pl
